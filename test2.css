@@ -1,0 +1,60 @@
+/* CSS */
+/* 
+.button-1 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #F082AC;
+} */
+
+
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+    margin: 25px;
+    background-color: rgb(240, 240, 240);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass {
+    color: red;
+}
+
+/* Applies to the element with <... id="someid"> specified. */
+#someid {
+    color: green;
+}
